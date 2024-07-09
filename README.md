@@ -20,8 +20,8 @@ File: smooth.py
 ![Dag](https://github.com/marcusarenas/pismo/blob/master/solution_images/dag_executed.png?raw=true)
 
 <br>
-Dag Log
-```
+Dag Logs
+`
 *** Reading local file: /opt/airflow/logs/dag_id=smooth/run_id=manual__2024-07-09T18:35:24.551199+00:00/task_id=youtube_video/attempt=1.log
 [2024-07-09, 18:35:27 UTC] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: smooth.youtube_video manual__2024-07-09T18:35:24.551199+00:00 [queued]>
 [2024-07-09, 18:35:27 UTC] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: smooth.youtube_video manual__2024-07-09T18:35:24.551199+00:00 [queued]>
@@ -46,4 +46,4 @@ AIRFLOW_CTX_DAG_RUN_ID=manual__2024-07-09T18:35:24.551199+00:00
 [2024-07-09, 18:35:27 UTC] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=smooth, task_id=youtube_video, execution_date=20240709T183524, start_date=20240709T183527, end_date=20240709T183527
 [2024-07-09, 18:35:27 UTC] {local_task_job.py:208} INFO - Task exited with return code 0
 [2024-07-09, 18:35:27 UTC] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check
-```
+`
